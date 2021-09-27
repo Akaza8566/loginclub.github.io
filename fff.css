@@ -1,0 +1,48 @@
+body{
+    font-family: Roboto;
+    background-image: url(demon.jpeg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    background-color: #000000;
+    width: 400px;
+    color: #3bd33b;
+    padding: 40px;
+    box-shadow: 10px 10px 25px #00000080;
+    text-align: center;
+    outline:auto #0bf00b;
+
+}
+
+.login input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: #f8f9fa;
+}
+
+.login input[type="text"], .login input[type="password"]{
+    border: 2px solid #3bd33b;
+    width: 220px;
+}
+
+.login input[type="submit"]{
+    width: 150px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+}
+
+.login input[type="text"] :focus, .login input[type="password"] :focus{
+    border-color :#f52207
+    width 280px;
+    transition: 0.5s;
+}
